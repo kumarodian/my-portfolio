@@ -1,34 +1,47 @@
 import React, { Component } from "react";
 import MaterialIcon from "material-icons-react";
 import "./RecentWork.css";
-let color = "#ff8239";
-const ContactItem = ({ icon, data, color = "#ffffff" }) => {
+import LumosImage from "../../images/Lumos-step-up.png";
+import ZebraImage from "../../images/zebra-logo.png";
+
+const Project = ({ src, title, shortDesc }) => {
   return (
-    <div className="ContactMe">
-      <MaterialIcon icon={icon} color={color} size={15} />
-      {data["text"]}
+    <div
+      style={{
+        borderRadius: "15px",
+        backgroundColor: "#ffffff",
+        margin: "0 10px",
+      }}
+    >
+      <img src={src} alt={title} style={{ width: "200px", height: "auto" }} />
     </div>
   );
 };
+
 class App extends Component {
   render() {
     return (
-      <div className="center container">
-        <p className="color">Contact Me</p>
-        <h2 className="secondaryColor bold-800">Get in Touch</h2>
-        <div className="d-flex flex-column">
-          <ContactItem
-            icon="call"
-            data={{ text: "Call Me", value: "+91 8861719014" }}
-          />
-          <ContactItem
-            icon="mail"
-            data={{ text: "E- mail", value: "sachinyadav607@gmail.com" }}
-          />
-          <ContactItem
-            icon="push_pin"
-            data={{ text: "Location", value: "Bangalore" }}
-          />
+      <div className="center" id="recentWork">
+        <div className="container padding-50">
+          <p className="color">My Portfolio</p>
+          <h2 className="secondaryColor bold-800">Recent Works</h2>
+          <div className="d-flex justify-content-center flex-row">
+            <Project
+              src={ZebraImage}
+              title="Lumos Leaning"
+              shortDesc="Cordova App"
+            />
+            <Project
+              src={LumosImage}
+              title="Developer Portal"
+              shortDesc="A drupal project"
+            />
+          </div>
+          <div className="padding-50">
+            <button className="btn button button-fill">
+              <a href="https://github.com/kumarodian">View on Github</a>
+            </button>
+          </div>
         </div>
       </div>
     );

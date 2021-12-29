@@ -1,0 +1,8 @@
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  border: 1px solid #ff8239;
+  padding: 0 10px;
+  color: #ff8239;
+  width: max-content;
+}

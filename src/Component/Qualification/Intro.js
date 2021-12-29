@@ -7,30 +7,30 @@ class App extends Component {
   render() {
     let color = "#ff8239";
     return (
-      <div className="row container" id="index">
+      <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <div className="profilePic">
             <img src={Image} alt="Sachin Kumar Side"></img>
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <p className=" color">My Intro</p>
-          <h2 className="secondaryColor bold-800">About Me</h2>
+          <p className="title">My Intro</p>
+          <p className="aboutMeTag">About Me</p>
           <p className="aboutMe">
             Notice that NOT all links of a document should be inside a element.
             The element is intended only for major block of navigation links.
           </p>
-          <div className="d-flex">
+          <div className="row">
             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-              <p className="d-flex">
+              <p className="">
                 <MaterialIcon icon="person_outline" color={color} />
                 Name
               </p>
-              <p className="d-flex">
+              <p className="">
                 <MaterialIcon icon="phone" color={color} />
                 Telephone
               </p>
-              <p className="d-flex">
+              <p className="">
                 <MaterialIcon icon="email" color={color} />
                 Email
               </p>
@@ -47,24 +47,23 @@ class App extends Component {
             </div>
           </div>
           <h4>My Interests</h4>
-          <div className="d-flex flex-row">
-            <p className="d-flex">
-              <MaterialIcon icon="music_note" color={color} />
-              Music
-            </p>
-            <p className="d-flex">
-              <MaterialIcon icon="games" color={color} />
-              Video Game
-            </p>
-            <p className="d-flex">
-              <MaterialIcon icon="movie" color={color} />
-              Movie
-            </p>
-            <p className="d-flex">
-              <MaterialIcon icon="dashboard" color={color} />
-              Photo
-            </p>
-          </div>
+
+          <span>
+            <MaterialIcon icon="music_note" color={color} />
+            Music
+          </span>
+          <span>
+            <MaterialIcon icon="games" color={color} />
+            Video Game
+          </span>
+          <span>
+            <MaterialIcon icon="movie" color={color} />
+            Movie
+          </span>
+          <span>
+            <MaterialIcon icon="dashboard" color={color} />
+            Photo
+          </span>
         </div>
       </div>
     );

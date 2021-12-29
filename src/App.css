@@ -5,13 +5,13 @@
 .background {
   background-color: #ff8239;
 }
-.secondaryBackground{
+.secondaryBackground {
   background-color: #f6f6f6;
 }
 .color {
   color: #ff8239;
 }
-.secondaryColor{
+.secondaryColor {
   color: #0c0a5d;
 }
 .button {
@@ -19,12 +19,29 @@
   border-radius: 25px;
   border: 1px solid #ff8239;
 }
-.title{
+.title {
   font-size: 30px;
   color: #ff8239;
 }
-
 .button-fill {
   background-color: #ff8239;
   color: #ffffff;
+}
+.bold-800 {
+  font-weight: 800;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.marginTop {
+  margin-top: 15px;
+}
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+  font-size: 12px;
 }

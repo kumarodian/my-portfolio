@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import MaterialIcon from "material-icons-react";
 import "./Footer.css";
 import Logo from "../Logo/Logo";
-let color = ["#b2b2b2", "#ff8239"];
 
 const currentYear = () => {
   return new Date().getFullYear();

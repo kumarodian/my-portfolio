@@ -1,7 +1,23 @@
+import React from "react";
 import Nav from "./Nav/Nav.js";
+import MaterialIcon from "material-icons-react";
 import "./Header.css";
 import Logo from "../Logo/Logo";
+
 const Header = () => {
+  const width = window.innerWidth;
+  const [showResult, setShowResult] = React.useState(
+    width < 992 ? false : true
+  );
+  const toggleNav = () => {
+    console.log(showResult);
+    if (showResult) {
+      console.log(showResult);
+      setShowResult(false);
+    } else {
+      setShowResult(true);
+    }
+  };
   return (
     <div className="header container">
       <nav className="navbar navbar-expand-lg">
@@ -11,10 +27,11 @@ const Header = () => {
           type="button"
           aria-label="Toggle navigation"
           className="navbar-toggler collapsed"
+          onClick={toggleNav}
         >
-          <i>Nav</i>
+          <MaterialIcon icon="menu" size={30} />
         </button>
-        <Nav></Nav>
+        {showResult ? <Nav /> : null}
       </nav>
     </div>
   );

@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import MaterialIcon from "material-icons-react";
 import { v4 as uuidv4 } from "uuid";
 import "./RecentWork.css";
-import LumosImage from "../../images/Lumos-step-up.png";
-import ZebraImage from "../../images/zebra-logo.png";
 
 const project = [
   {

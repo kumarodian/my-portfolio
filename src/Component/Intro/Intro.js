@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import MaterialIcon from "material-icons-react";
-import Image from "../../images/image.png";
+import Image1 from "../../images/image_1.jpg";
+import Image2 from "../../images/image_2.jpg";
+import Image3 from "../../images/image_3.jpg";
 import "./Intro.css";
 let color = "#ff8239";
+const image = [Image1, Image2, Image3];
 const Item = ({ icon, name }) => {
   return (
     <p className="d-flex">
@@ -19,16 +22,26 @@ class App extends Component {
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-self-center flex-column">
               <div className="profilePic">
-                <img src={Image} alt="Sachin Kumar Side"></img>
+                <img
+                  src={image[Math.floor(Math.random() * image.length)]}
+                  alt="Sachin Kumar Side"
+                  style={{
+                    maxWidth: "350px",
+                    borderRadius: "15% 0",
+                    boxShadow: "7px 7px 7px 0px #00000026",
+                  }}
+                ></img>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-self-center flex-column">
               <p className=" color">My Intro</p>
               <h2 className="secondaryColor bold-800">About Me</h2>
               <p className="aboutMe">
-                Notice that NOT all links of a document should be inside a
-                element. The element is intended only for major block of
-                navigation links.
+                I love coding !!
+                <br /> Currently building projects and games with React.
+                Sometimes I can be found clicking photos, and evening playing
+                simulator games. Big fan of Marvel Movies and a part-time
+                gardener.
               </p>
               <div className="d-flex">
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
@@ -43,16 +56,23 @@ class App extends Component {
                 </div>
                 <div className="col-xl-8 col-lg-8 col-md-7 col-sm-12">
                   <p>Sachin Kumar</p>
-                  <p>+91 8861719014</p>
+                  <p>
+                    <a
+                      href="tel:+91 8861719014"
+                      style={{ color: "inherit", textDecoration: "none" }}
+                    >
+                      +91 8861719014
+                    </a>
+                  </p>
                   <p>sachinyadav607@gmail.com</p>
                 </div>
               </div>
               <h4>My Interests</h4>
               <div className="d-flex flex-row justify-content-between marginTop">
                 <Item icon="music_note" name="Music" />
-                <Item icon="games" name=" Video Game" />
+                <Item icon="games" name="Video Game" />
                 <Item icon="movie" name="Movie" />
-                <Item icon="dashboard" name="Photo" />
+                <Item icon="fitness_center" name="Fitness" />
               </div>
             </div>
           </div>

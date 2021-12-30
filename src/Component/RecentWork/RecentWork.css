@@ -1,3 +1,44 @@
 #recentWork {
   background-color: #f9f8fd;
 }
+.project {
+  text-align: left;
+  padding: 0 15px 10px 15px;
+  max-width: 300px;
+  border-radius: 0 25px 0 0;
+  background-color: #ffffff;
+  margin: 15px 10px;
+  border: 1px solid #d1d1d1;
+  transition: all 0.2s ease-in-out;
+}
+.projectTitle {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.projectDesc,
+.projectTech {
+  font-size: 13px;
+}
+
+.project .material-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #54494f;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  top: -18px;
+  border-radius: 20%;
+  color: #ffffff;
+}
+.project:hover {
+  background-color: #ff8239;
+  color: #ffffff;
+}
+.project:hover .projectUrl > a > button {
+  background-color: #0c0a5d;
+  color: #ffffff;
+}

@@ -49,6 +49,7 @@
 }
 #expertise .container,
 #intro .container,
-#qualification .container {
+#qualification .container,
+#recentWork .container {
   margin-top: 0;
 }

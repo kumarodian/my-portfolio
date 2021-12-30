@@ -15,11 +15,9 @@ const Home = () => {
               Computer Engineer with more than 3 years of experience
             </p>
             <div className="action">
-              <button className="btn button button-fill">
-                <a href={Resume} download>
-                  Download CV
-                </a>
-              </button>
+              <a href={Resume} download>
+                <button className="btn button button-fill">Download CV</button>
+              </a>
               {/* <button className="btn button">
             <a href="#index">Contact Me</a>
           </button> */}

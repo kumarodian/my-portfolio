@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.12d0afc6.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.546fd940.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.546fd940.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.a84fb7a9.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.a84fb7a9.js.map",
+    "main.css": "/my-portfolio/static/css/main.9df6d3ae.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.7d70cec8.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.7d70cec8.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.76bde103.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.76bde103.js.map",
     "static/css/2.e995b52e.chunk.css": "/my-portfolio/static/css/2.e995b52e.chunk.css",
-    "static/js/2.8c60a655.chunk.js": "/my-portfolio/static/js/2.8c60a655.chunk.js",
-    "static/js/2.8c60a655.chunk.js.map": "/my-portfolio/static/js/2.8c60a655.chunk.js.map",
-    "static/js/3.d2aaedf6.chunk.js": "/my-portfolio/static/js/3.d2aaedf6.chunk.js",
-    "static/js/3.d2aaedf6.chunk.js.map": "/my-portfolio/static/js/3.d2aaedf6.chunk.js.map",
+    "static/js/2.2d38c9ac.chunk.js": "/my-portfolio/static/js/2.2d38c9ac.chunk.js",
+    "static/js/2.2d38c9ac.chunk.js.map": "/my-portfolio/static/js/2.2d38c9ac.chunk.js.map",
+    "static/js/3.d79acf99.chunk.js": "/my-portfolio/static/js/3.d79acf99.chunk.js",
+    "static/js/3.d79acf99.chunk.js.map": "/my-portfolio/static/js/3.d79acf99.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.e995b52e.chunk.css.map": "/my-portfolio/static/css/2.e995b52e.chunk.css.map",
-    "static/css/main.12d0afc6.chunk.css.map": "/my-portfolio/static/css/main.12d0afc6.chunk.css.map",
-    "static/js/2.8c60a655.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.8c60a655.chunk.js.LICENSE.txt",
-    "static/media/Lumos-step-up.d54078d6.png": "/my-portfolio/static/media/Lumos-step-up.d54078d6.png",
-    "static/media/image.eb1aaa1a.png": "/my-portfolio/static/media/image.eb1aaa1a.png",
+    "static/css/main.9df6d3ae.chunk.css.map": "/my-portfolio/static/css/main.9df6d3ae.chunk.css.map",
+    "static/js/2.2d38c9ac.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.2d38c9ac.chunk.js.LICENSE.txt",
+    "static/media/image_1.83cf928b.jpg": "/my-portfolio/static/media/image_1.83cf928b.jpg",
+    "static/media/image_2.e327123e.jpg": "/my-portfolio/static/media/image_2.e327123e.jpg",
+    "static/media/image_3.3d7de8e7.jpg": "/my-portfolio/static/media/image_3.3d7de8e7.jpg",
     "static/media/mainPic.6573280d.png": "/my-portfolio/static/media/mainPic.6573280d.png",
-    "static/media/sachin_kumar_web_developer_resume.6774ff93.pdf": "/my-portfolio/static/media/sachin_kumar_web_developer_resume.6774ff93.pdf",
-    "static/media/zebra-logo.f7d00696.png": "/my-portfolio/static/media/zebra-logo.f7d00696.png"
+    "static/media/sachin_kumar_web_developer_resume.6774ff93.pdf": "/my-portfolio/static/media/sachin_kumar_web_developer_resume.6774ff93.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a84fb7a9.js",
+    "static/js/runtime-main.76bde103.js",
     "static/css/2.e995b52e.chunk.css",
-    "static/js/2.8c60a655.chunk.js",
-    "static/css/main.12d0afc6.chunk.css",
-    "static/js/main.546fd940.chunk.js"
+    "static/js/2.2d38c9ac.chunk.js",
+    "static/css/main.9df6d3ae.chunk.css",
+    "static/js/main.7d70cec8.chunk.js"
   ]
 }

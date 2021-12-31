@@ -20,7 +20,7 @@ class App extends Component {
       <div id="intro">
         <div className="container padding-50">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-self-center flex-column">
+            <div className="col-xl-6 col-lg-6 col-md-7 col-sm-12 d-flex align-self-center flex-column">
               <div className="profilePic">
                 <img
                   src={image[Math.floor(Math.random() * image.length)]}
@@ -33,7 +33,7 @@ class App extends Component {
                 ></img>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-self-center flex-column">
+            <div className="col-xl-6 col-lg-6 col-md-5 col-sm-12 d-flex align-self-center flex-column">
               <p className=" color">My Intro</p>
               <h2 className="secondaryColor bold-800">About Me</h2>
               <p className="aboutMe">
@@ -44,7 +44,7 @@ class App extends Component {
                 gardener.
               </p>
               <div className="d-flex">
-                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                   <Item icon="person_outline" name="Name" />
                   <Item icon="phone" name="Telephone" />
                   <Item icon="email" name="Email" />
@@ -54,7 +54,7 @@ class App extends Component {
                   <p>:</p>
                   <p>:</p>
                 </div>
-                <div className="col-xl-8 col-lg-8 col-md-7 col-sm-12">
+                <div className="col-xl-8 col-lg-8 col-md-7 col-sm-6">
                   <p>Sachin Kumar</p>
                   <p>
                     <a

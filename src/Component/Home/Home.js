@@ -25,7 +25,12 @@ const Home = () => {
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-self-center flex-column">
             <div>
-              <img src={mainPic} alt="Sachin Kumar"></img>
+              <img
+                className="img-responsive"
+                src={mainPic}
+                alt="Sachin Kumar"
+                style={{ maxWidth: "100%", height: "auto" }}
+              ></img>
             </div>
           </div>
         </div>
